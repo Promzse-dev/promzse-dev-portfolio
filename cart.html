@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - PROMZSE STORE</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>PROMZSE STORE</h1>
+        <p>Quality Products, Great Prices</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">🛒 Cart: <span id="cart-count">0</span></a>
+    </nav>
+
+    <section class="cart">
+
+        <h2>Your Shopping Cart</h2>
+
+        <div id="cart-items">
+            <p>Your cart is empty.</p>
+        </div>
+
+        <div class="cart-total">
+            <h3>Total: $<span id="cart-total">0.00</span></h3>
+        </div>
+
+        <button onclick="checkout()">Checkout</button>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 PROMZSE STORE. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - PROMZSE STORE</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>PROMZSE STORE</h1>
+        <p>Quality Products, Great Prices</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">🛒 Cart: <span id="cart-count">0</span></a>
+    </nav>
+
+    <section class="products">
+
+        <h2>Our Products</h2>
+
+        <div class="product-container">
+
+            <article class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7IoNlFuzqtSp23wr3NbUmVPdPaft8aUdyfIxX2mmJtA&s=10" alt="Classic Sneakers">
+                <h3>
+                    <a href="product.html">Classic Sneakers</a>
+                </h3>
+                <p>$39.99</p>
+                <button onclick="addToCart('Classic Sneakers', 39.99)">Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf1Fz3rhaLRTtoPg4EpwJv0HeEKFrYQDs0FBc9fcI7ZA&s=10"  alt="Wireless Headphones">
+                <h3>
+                    <a href="headphones.html">Wireless Headphones</a>
+                </h3>
+                <p>$29.59</p>
+                <button onclick="addToCart('Wireless Headphones', 29.59)">Add to Cart</button>
+            </article>
+
+            <article class="product">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjec0nZm5tYnmlA57zXz_Upu58QCbz7N0hBsPm_j7URQ&s=10" alt="Smart Watch">
+               <h3>
+                    <a href="watch.html">Smart Watch</a>
+                </h3>
+                <p>$24.50</p>
+               <button onclick="addToCart('Smart Watch', 24.50)">Add to Cart</button>
+            </article>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2026 PROMZSE STORE. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
